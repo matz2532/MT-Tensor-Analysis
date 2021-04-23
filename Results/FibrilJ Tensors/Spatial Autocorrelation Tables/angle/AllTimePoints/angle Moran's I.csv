@@ -1,0 +1,103 @@
+sample name,r,p-value
+20170327 WT 2h timeseries S4 48h (MTs)_1,0.38574,0.63815
+20170327 WT 2h timeseries S4 48h (MTs)_2,0.10868,0.54884
+20170327 WT 2h timeseries S4 48h (MTs)_3,-0.11094,0.47591
+20170327 WT 2h timeseries S4 48h (MTs)_4,0.25766,0.59752
+20170327 WT 2h timeseries S4 48h (MTs)_5,0.08482,0.54092
+20170327 WT 2h timeseries S4 48h (MTs)_6,-0.27081,0.42321
+20170327 WT 2h timeseries S4 48h (MTs)_7,0.17661,0.57108
+20170327 WT 2h timeseries S4 48h (MTs)_8,0.13028,0.55592
+20170501 WT 2h timeseries S3 48h (MTs)_1,-0.07934,0.48373
+20170501 WT 2h timeseries S3 48h (MTs)_2,0.10768,0.54464
+20170501 WT 2h timeseries S3 48h (MTs)_3,0.07697,0.53463
+20170501 WT 2h timeseries S3 48h (MTs)_4,0.11104,0.54566
+20170501 WT 2h timeseries S3 48h (MTs)_5,-0.13636,0.46519
+20170501 WT 2h timeseries S3 48h (MTs)_6,0.02314,0.51708
+20170501 WT 2h timeseries S3 48h (MTs)_7,-0.22848,0.43546
+20170501 WT 2h timeseries S3 48h (MTs)_8,0.02463,0.51762
+20170501 WT 2h timeseries S4 48h (MTs)_1,0.12749,0.56084
+20170501 WT 2h timeseries S4 48h (MTs)_2,0.01691,0.52253
+20170501 WT 2h timeseries S4 48h (MTs)_3,0.10653,0.55376
+20170501 WT 2h timeseries S4 48h (MTs)_4,-0.06112,0.4953
+20170501 WT 2h timeseries S4 48h (MTs)_5,-0.12624,0.47261
+20170501 WT 2h timeseries S4 48h (MTs)_6,-0.03469,0.50451
+20170501 WT 2h timeseries S4 48h (MTs)_7,-0.00884,0.51357
+20170501 WT 2h timeseries S4 48h (MTs)_8,-0.18111,0.4534
+20190107 clasp-1 S1 48h (MTs)_1,0.0283,0.52174
+20190107 clasp-1 S1 48h (MTs)_2,0.13912,0.55853
+20190107 clasp-1 S1 48h (MTs)_3,0.0767,0.53787
+20190107 clasp-1 S1 48h (MTs)_4,-0.17752,0.45331
+20190107 clasp-1 S1 48h (MTs)_5,0.01758,0.51821
+20190107 clasp-1 S1 48h (MTs)_6,-0.04256,0.49816
+20190107 clasp-1 S1 48h (MTs)_7,0.02622,0.52106
+20190107 clasp-1 S1 48h (MTs)_8,0.00787,0.51496
+20190107 clasp-1 S3 48h (MTs)_1,-0.17915,0.45248
+20190107 clasp-1 S3 48h (MTs)_2,-0.01506,0.50328
+20190107 clasp-1 S3 48h (MTs)_3,0.12751,0.54739
+20190107 clasp-1 S3 48h (MTs)_4,-0.0882,0.4806
+20190107 clasp-1 S3 48h (MTs)_5,-0.09463,0.47861
+20190107 clasp-1 S3 48h (MTs)_6,-0.1481,0.4621
+20190107 clasp-1 S3 48h (MTs)_7,-0.07098,0.48594
+20190107 clasp-1 S3 48h (MTs)_8,-0.05859,0.48979
+20200422 clasp-1 2h timelapse 48 hpd S1 (MT)_3,-0.06533,0.49257
+20200422 clasp-1 2h timelapse 48 hpd S1 (MT)_4,-0.20997,0.4432
+20200422 clasp-1 2h timelapse 48 hpd S1 (MT)_5,-0.08866,0.48453
+20200422 clasp-1 2h timelapse 48 hpd S1 (MT)_6,-0.0578,0.49511
+20200422 clasp-1 2h timelapse 48 hpd S1 (MT)_7,-0.13487,0.46875
+20200422 clasp-1 2h timelapse 48 hpd S1 (MT)_8,0.00701,0.51716
+20200422 clasp-1 2h timelapse 48 hpd S2 (MTs)_1,0.03319,0.52636
+20200422 clasp-1 2h timelapse 48 hpd S2 (MTs)_2,-0.21594,0.44115
+20200422 clasp-1 2h timelapse 48 hpd S2 (MTs)_3,-0.08475,0.48585
+20200422 clasp-1 2h timelapse 48 hpd S2 (MTs)_4,-0.10868,0.47759
+20200422 clasp-1 2h timelapse 48 hpd S2 (MTs)_5,-0.03492,0.50295
+20200422 clasp-1 2h timelapse 48 hpd S2 (MTs)_6,0.00535,0.51682
+20200422 clasp-1 2h timelapse 48 hpd S4 (MTs)_3,-0.29525,0.41469
+20200422 clasp-1 2h timelapse 48 hpd S4 (MTs)_4,0.15691,0.56927
+20200422 clasp-1 2h timelapse 48 hpd S4 (MTs)_5,0.09679,0.54855
+20200422 clasp-1 2h timelapse 48 hpd S4 (MTs)_6,-0.06097,0.49467
+20200422 clasp-1 2h timelapse 48 hpd S4 (MTs)_7,-0.00695,0.51322
+20200422 clasp-1 2h timelapse 48 hpd S4 (MTs)_8,-0.05635,0.49625
+20200422 clasp-1 2h timelapse 48hpd S3 (MTs)_1,-0.07321,0.49162
+20200422 clasp-1 2h timelapse 48hpd S3 (MTs)_2,-0.14924,0.46418
+20200422 clasp-1 2h timelapse 48hpd S3 (MTs)_3,-0.02012,0.5108
+20200422 clasp-1 2h timelapse 48hpd S3 (MTs)_4,-0.06504,0.49457
+20200422 clasp-1 2h timelapse 48hpd S3 (MTs)_5,-0.04133,0.50313
+20200422 clasp-1 2h timelapse 48hpd S3 (MTs)_6,0.19309,0.58716
+20190204_ktn1-2 LTi6 TUA5 48h S1_timeseries (MTs)_1,0.0516,0.52664
+20190204_ktn1-2 LTi6 TUA5 48h S1_timeseries (MTs)_2,-0.13995,0.46506
+20190204_ktn1-2 LTi6 TUA5 48h S1_timeseries (MTs)_3,-0.14601,0.46314
+20190204_ktn1-2 LTi6 TUA5 48h S1_timeseries (MTs)_4,-0.11035,0.47457
+20190204_ktn1-2 LTi6 TUA5 48h S1_timeseries (MTs)_5,-0.08078,0.48409
+20190204_ktn1-2 LTi6 TUA5 48h S1_timeseries (MTs)_6,-0.10949,0.47485
+20190204_ktn1-2 LTi6 TUA5 48h S1_timeseries (MTs)_7,-0.01058,0.50665
+20190204_ktn1-2 LTi6 TUA5 48h S1_timeseries (MTs)_8,-0.0182,0.50419
+20190225 ktn1-2 LTI6b TUA5 2h timelapse 48h S1_time series (MTs)_1,0.02007,0.51361
+20190225 ktn1-2 LTI6b TUA5 2h timelapse 48h S1_time series (MTs)_2,-0.11656,0.47127
+20190225 ktn1-2 LTI6b TUA5 2h timelapse 48h S1_time series (MTs)_3,0.00863,0.51006
+20190225 ktn1-2 LTI6b TUA5 2h timelapse 48h S1_time series (MTs)_4,-0.07048,0.48553
+20190225 ktn1-2 LTI6b TUA5 2h timelapse 48h S1_time series (MTs)_5,-0.12471,0.46874
+20190225 ktn1-2 LTI6b TUA5 2h timelapse 48h S1_time series (MTs)_6,0.04963,0.52276
+20190225 ktn1-2 LTI6b TUA5 2h timelapse 48h S1_time series (MTs)_7,0.02903,0.51638
+20190225 ktn1-2 LTI6b TUA5 2h timelapse 48h S1_time series (MTs)_8,-0.00656,0.50535
+20190225 ktn1-2 LTI6b TUA5 2h timelapse 48h S7_time series (MTs)_1,-0.06205,0.49068
+20190225 ktn1-2 LTI6b TUA5 2h timelapse 48h S7_time series (MTs)_2,0.08634,0.53878
+20190225 ktn1-2 LTI6b TUA5 2h timelapse 48h S7_time series (MTs)_3,0.05222,0.52773
+20190225 ktn1-2 LTI6b TUA5 2h timelapse 48h S7_time series (MTs)_4,0.07099,0.53385
+20190225 ktn1-2 LTI6b TUA5 2h timelapse 48h S7_time series (MTs)_5,-0.09234,0.48088
+20190225 ktn1-2 LTI6b TUA5 2h timelapse 48h S7_time series (MTs)_6,0.07666,0.53564
+20190225 ktn1-2 LTI6b TUA5 2h timelapse 48h S7_time series (MTs)_7,0.06219,0.53099
+20190225 ktn1-2 LTI6b TUA5 2h timelapse 48h S7_time series (MTs)_8,-0.02355,0.50318
+20190225 ktn1-2 LTI6b TUA5 2h timelapse 48h S8_timeseries (MTs)_1,-0.01222,0.50396
+20190225 ktn1-2 LTI6b TUA5 2h timelapse 48h S8_timeseries (MTs)_2,0.00782,0.51017
+20190225 ktn1-2 LTI6b TUA5 2h timelapse 48h S8_timeseries (MTs)_3,-0.12186,0.47
+20190225 ktn1-2 LTI6b TUA5 2h timelapse 48h S8_timeseries (MTs)_4,-0.20456,0.44451
+20190225 ktn1-2 LTI6b TUA5 2h timelapse 48h S8_timeseries (MTs)_5,0.03447,0.51843
+20190225 ktn1-2 LTI6b TUA5 2h timelapse 48h S8_timeseries (MTs)_6,-0.02389,0.50034
+20190225 ktn1-2 LTI6b TUA5 2h timelapse 48h S8_timeseries (MTs)_7,-0.10334,0.47573
+20190225 ktn1-2 LTI6b TUA5 2h timelapse 48h S8_timeseries (MTs)_8,-0.10994,0.47368
+group,mean,sd
+WT,0.02084,0.15101
+clasp,-0.04321,0.10327
+ktn,-0.03555,0.07736
+WT vs clasp with p-value of 0.0522038300587555
+WT vs ktn with p-value of 0.0797804611303663

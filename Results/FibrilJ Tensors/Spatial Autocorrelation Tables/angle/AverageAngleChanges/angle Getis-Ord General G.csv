@@ -1,0 +1,20 @@
+sample name,r,p-value
+20170327 WT 2h timeseries S4 48h (MTs)_1,0.15734,0.52942
+20170501 WT 2h timeseries S3 48h (MTs)_1,0.15779,0.90178
+20170501 WT 2h timeseries S4 48h (MTs)_1,0.15434,0.19168
+20190107 clasp-1 S1 48h (MTs)_1,0.12895,0.06739
+20190107 clasp-1 S3 48h (MTs)_1,0.10213,0.65982
+20200422 clasp-1 2h timelapse 48 hpd S1 (MT)_3,0.13908,0.12988
+20200422 clasp-1 2h timelapse 48 hpd S2 (MTs)_1,0.14682,0.15355
+20200422 clasp-1 2h timelapse 48 hpd S4 (MTs)_3,0.13577,0.11539
+20200422 clasp-1 2h timelapse 48hpd S3 (MTs)_1,0.16244,0.13211
+20190204_ktn1-2 LTi6 TUA5 48h S1_timeseries (MTs)_1,0.13412,0.72671
+20190225 ktn1-2 LTI6b TUA5 2h timelapse 48h S1_time series (MTs)_1,0.10334,0.73119
+20190225 ktn1-2 LTI6b TUA5 2h timelapse 48h S7_time series (MTs)_1,0.11713,0.00487
+20190225 ktn1-2 LTI6b TUA5 2h timelapse 48h S8_timeseries (MTs)_1,0.08635,0.012
+group,mean,sd
+WT,0.15649,0.00153
+clasp,0.13587,0.01836
+ktn,0.11023,0.01758
+WT vs clasp with p-value of 0.03602292768959436
+WT vs ktn with p-value of 0.006349206349206349
