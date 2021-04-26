@@ -5,7 +5,7 @@ import sys
 
 class SpatialAutoCorrelationCalculator (object):
 
-    def __init__(self, network, value, method=None, printGeneralGProblem=False,
+    def __init__(self, network, value, method=None,
                  selectedCells=None):
         self.network = network
         if not selectedCells is None:
@@ -13,7 +13,6 @@ class SpatialAutoCorrelationCalculator (object):
                 self.network = self.network.subgraph(selectedCells)
         self.weightMatrix = nx.to_numpy_matrix(self.network)
         self.value = np.asarray(value)
-        self.printGeneralGProblem = printGeneralGProblem
         self.setNeededValues()
         self.methodNames = ("Moran's I", "Gerry's C", "Getis-Ord General G",
                             "Anselin Local Morans I", "Getis-Ord Gi Star")
@@ -79,16 +78,6 @@ class SpatialAutoCorrelationCalculator (object):
         var = ESquaredValue - expectedValue**2
         zScore = (value - expectedValue) / np.sqrt(var)
         pValue = self.convertZScoreToPValue(zScore)
-        if self.printGeneralGProblem:
-            if var < 0:
-                print("var is negative")
-            if method == "Getis-Ord General G":
-                print("value", value)
-                print("is A < B", A<B, "A", A, "B", B)
-                print("is C negative", C < 0, "C",C)
-                print("ESquaredValue", ESquaredValue)
-                print("expectedValue**2", expectedValue**2)
-                print("is ESquaredValue-expectedValue**2 negative", (ESquaredValue-expectedValue**2) < 0)
         return pValue
 
     def calcABCOfMoransI(self):
@@ -319,43 +308,6 @@ class SpatialAutoCorrelationCalculator (object):
 
     def GetGetisOrdGiStar(self):
         return self.getisOrdGiStar
-
-    def GetCorrelation(self, method):
-        pass
-
-def main():
-    from MTDataLoader import MTDataLoader
-    sampleName = "20200220 WT S1"
-    method = "Getis-Ord General G"#"Anselin Local Morans I"#"Getis-Ord Gi Star"
-    baseFolder = "MT orientation analysis data/"
-    folder = "{}{}/".format(baseFolder, sampleName)
-    myLoader = MTDataLoader(folder, searchAllFolders=False)
-    dataOfAllSamples = myLoader.GetDataOfAllSamples()
-    tensorsOfAllSamples = myLoader.GetTensorsOfAllSamples()
-    network = dataOfAllSamples[sampleName]["network"]
-    tensorsOfCells = []
-    for measures in tensorsOfAllSamples[sampleName].values():
-        angle = measures["angle"]
-        tensorsOfCells.append(angle)
-    mySpatialAutoCorrelationCalculator = SpatialAutoCorrelationCalculator(network, tensorsOfCells,
-                                            printGeneralGProblem=True, method=method)
-    moransI = mySpatialAutoCorrelationCalculator.GetMoransI()
-    # print(moransI)
-    gearysC = mySpatialAutoCorrelationCalculator.GetGearysC()
-    # print("gearysC",gearysC)
-    getisOrdGeneralG = mySpatialAutoCorrelationCalculator.GetGetisOrdGeneralG()
-    # print(getisOrdGeneralG)
-    getisOrdGiStar = mySpatialAutoCorrelationCalculator.GetGetisOrdGiStar()
-    # print(np.round(np.sort(getisOrdGiStar[0]), 3))
-    # print((np.asarray(getisOrdGiStar)))
-    anselinLocalMoransI = mySpatialAutoCorrelationCalculator.GetAnselinLocalMoransI()
-    print(anselinLocalMoransI)
-    # import pickle
-    # filename = "anselinLocalMoransI.pkl"
-    # # pickle.dump(anselinLocalMoransI, open(filename, "wb"))
-    # anselinLocalMoransI = pickle.load(open(filename, "rb"))
-    # print(np.sum(np.sort(anselinLocalMoransI[2])<0.05))
-    # print(len(anselinLocalMoransI[0]))
 
 if __name__ == '__main__':
     main()
