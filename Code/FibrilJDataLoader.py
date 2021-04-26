@@ -258,7 +258,7 @@ def main():
     for is48hTimePoint in [False, True]:
         if is48hTimePoint:
             filename = folder + "MT_Tensor_Orientation_48h.xlsx"
-            timePointTxt = ""
+            timePointTxt = " 48"
         else:
             filename = folder + "MT_Tensor_Orientation_96h.xlsx"
             timePointTxt = " 96"

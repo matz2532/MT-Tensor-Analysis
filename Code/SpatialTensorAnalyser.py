@@ -240,7 +240,7 @@ def main():
     measure = "angle"
     resultsFolder = "Results/FibrilJ Tensors/Spatial Autocorrelation Tables/{}/AverageAngleChanges/".format(measure)
     Path(resultsFolder).mkdir(parents=True, exist_ok=True)
-    for timePointTxt in ["", " 96"]:
+    for timePointTxt in [" 48", " 96"]:
         filenameToSave = "{}{} {}{}.csv".format(resultsFolder, measure, method, timePointTxt)
         print("filenameToSave", filenameToSave)
         analyser = SpatialTensorAnalyser(baseFolder)
