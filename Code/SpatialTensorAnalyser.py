@@ -4,7 +4,6 @@ import networkx as nx
 import numpy as np
 import pandas as pd
 import scipy as sc
-import seaborn as sns
 import sys
 
 from pathlib import Path
