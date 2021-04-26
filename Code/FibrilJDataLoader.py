@@ -257,10 +257,10 @@ def main():
     folder = "FibrilJ Tensors/"
     for is48hTimePoint in [False, True]:
         if is48hTimePoint:
-            filename = folder + "OVERVIEW_LOG_48h_CROP.xlsx"
+            filename = folder + "MT_Tensor_Orientation_48h.xlsx"
             timePointTxt = ""
         else:
-            filename = folder + "OVERVIEW_LOG_96h.xlsx"
+            filename = folder + "MT_Tensor_Orientation_96h.xlsx"
             timePointTxt = " 96"
         baseFolder = "FibrilJ Tensors/AverageAngleChanges/"
         table = pd.read_excel(filename)
