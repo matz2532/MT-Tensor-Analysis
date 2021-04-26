@@ -12,5 +12,12 @@ In the PermutationTester.py script, the values of two groups are statistically t
 
 In the SpatialTensorAnalyser.py script, the average MT changes as well as the networks (from FibrilJDataLoader.py) are used to group the same scenarios spatial correlation (SpatialAutoCorrelationCalculator.py), calculate their differences between the scenarios (PermutationTester.py), and save the results under "Results/FibrilJ Tensors/Spatial Autocorrelation Tables/angle/angle Getis-Ord General G 48.csv" or "angle Getis-Ord General G 96.csv".
 
+In order to use these scripts, you have to create the python environment using the "MT_Tensor_Analysis.yml" file using:
+conda env create -f <path_to_yaml_file>
+and activate the anaconda environment with
+conda activate <environment_name>
+
+Alternatively, you can install python 3.8.4 and install all of these packages: matplotlib, networkx, numpy, pandas, scipy.
+
 In case of question, please do not hesitate to contact:
 sampathkumar@mpimp-golm.mpg.de, t.matz@mpimp-golm.mpg.de, reng@mpipz.mpg.de
