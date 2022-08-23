@@ -29,8 +29,7 @@ class SpatialTensorAnalyser (object):
                               filenameToSave=None,
                               printOut=False):
         allSampleCorrelations = {}
-        self.measure = measure
-        assert method in self.allowedMethodNames, "The method {} is not exisiting in the allowed method names. {} not in {}".format(self.measure, self.measure, self.allowedMethodNames)
+        assert method in self.allowedMethodNames, "The method {} is not exisiting in the allowed method names. {} not in {}".format(method, method, self.allowedMethodNames)
         isLocalMethod = method in self.loacalMethodNames
         for sampleName in self.tensorsOfAllSamples.keys():
             self.sampleName = sampleName
